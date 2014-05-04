@@ -12,6 +12,6 @@ int main(){
     for (int i=1;i<s.size()-1;++i) {
         if (s[i]=='+' || s[i]=='*' || s[i]=='-') c++;
     }
-    cout << c << endl;
+    cout << c;
     return 0;
 }
